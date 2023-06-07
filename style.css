@@ -1,0 +1,225 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 11px;
+}
+nav img{
+    width: 18%;
+    margin-top: -76px;
+}
+nav .download p:hover{
+  display: flex; 
+  font-size: 20px;  
+  margin-top: 5px;
+  color: rgb(247, 27, 62);
+  cursor: pointer;
+}
+nav .download i{
+   margin-inline: 11px;
+}
+.icon{
+    display: flex;
+}
+.profile p i{
+margin-left: 15px;
+}
+.cart{
+    display: flex;
+}
+nav input{
+    width: 320px;
+    height: 40px;
+    outline: none;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border: 1px solid rgb(234, 230, 230);
+    padding: 20px;
+    margin-top: -55px;
+
+}
+.nav2 p:hover{
+    color: rgb(247, 27, 62);
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+.text{
+background-color: rgb(249, 249, 249); ;
+}
+.container .text h1{
+    font-size: 50px;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.container .text .text2{
+    display: flex;
+    justify-content: center;
+}
+.container .text .text2 h2{
+    margin-inline: 11px;
+    font-size: 22px;
+    margin-top: 22px;
+}
+.container .text button{
+    width: 271px;
+    height:40px;
+    background-color:  rgb(244, 51, 151);
+    color: white;
+    border-radius: 4px;
+    border:none;
+    font-size: 20px;
+    margin-top: 53px;
+    margin-left: 32;
+}
+ .h1{
+    text-align: center;
+    line-height: 44px;
+    padding: 22px;
+    font-size: 36px;
+    color: rgb(51, 51, 51);
+
+}
+.container.text.text2 h2{
+ margin-inline: 11px;
+ font-size: 22px;
+}
+.container2 h1{
+    text-align: center;
+    margin-top: 44px;
+    padding: 22px;
+}
+
+.container1 .secondimage{
+    display: flex;
+    width: 400px;
+    height: 429;
+    padding-top: 90px;
+    margin-left: 24px;
+  
+}
+.container1 .thirdimage{
+    display: flex;
+    margin: 50px;
+    padding-top: 28px;
+    
+}
+
+.container1{
+    background-image: url("https://images.meesho.com/images/marketing/1678691670429_1200.webp");
+    margin-bottom: 60px;
+    margin-left: 86px;
+    margin-right: 86px;
+    justify-content: center;
+}
+ 
+
+
+.container2{
+ background-image: url("https://images.meesho.com/images/pow/downloadBannerDesktop_1050.webp");
+ display: flex;
+ /* justify-content: center; */
+ width: 1106px;
+ height: 525px;
+ margin-left: 206px;
+}
+.content{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 48px;
+}
+.content h1{
+    color: rgb(85, 133, 248);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: "Mier bold";
+    
+}
+.content h2{
+    color: rgb(244, 51, 151);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    font-family: "Mier bold";
+    margin-right: 159px;
+}
+.contentdownload{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    margin-top: 52px;
+    margin-right: 192px;
+}
+.contentdownload .android img{
+    background: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-left: 12px;
+    cursor: pointer;
+    padding: 6px 25px;
+    width: 180px;
+    height: 48px;
+
+}
+.contentdownload .ios img{
+    background: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-left: 12px;
+    cursor: pointer;
+    padding: 6px 25px;
+    width: 180px;
+    height: 48px;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.card1 .img img{
+    width: 82%;
+}
+.card1 .img{
+    border: 1px solid rgb(228, 228, 228);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 44px;
+    padding: 55px;
+    background-color: rgb(249, 249, 249);
+}
+.storelogo{
+    display: flex;
+    width: 100%;
+    gap: 16px;
+}
+/* .storelogo .gplay{
+  
+}
+.storelogo .appstore{
+    
+} */
+.footer.list1{
+    display: flex;
+    justify-content: space-around;
+     
+}
